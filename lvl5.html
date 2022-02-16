@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animals Memory Game</title>
+</head>
+
+<body class="lvl">
+    <div class="title">
+        <h1>משחק הזיכרון-חיות</h1>
+        <h2>שלב אחרון</h2>
+        <span id="guess">5</span>
+    </div>
+
+    <div id="container" class="game-lvl5">
+        <div class="card lvl-5" data-id="01">
+            <img class="front" src="./images/cat.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="01">
+            <img class="front" src="./images/cat.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="02">
+            <img class="front" src="./images/dog.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="02">
+            <img class="front" src="./images/dog.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="03">
+            <img class="front" src="./images/giraffe.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="03">
+            <img class="front" src="./images/giraffe.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="04">
+            <img class="front" src="./images/turtle.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="04">
+            <img class="front" src="./images/turtle.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="05">
+            <img class="front" src="./images/horse.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="05">
+            <img class="front" src="./images/horse.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="07">
+            <img class="front" src="./images/lion.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="07">
+            <img class="front" src="./images/lion.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="06">
+            <img class="front" src="./images/lepard.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="06">
+            <img class="front" src="./images/lepard.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="08">
+            <img class="front" src="./images/owl.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="08">
+            <img class="front" src="./images/owl.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="09">
+            <img class="front" src="./images/monkey.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="09">
+            <img class="front" src="./images/monkey.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="10">
+            <img class="front" src="./images/zebra.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-5" data-id="10">
+            <img class="front" src="./images/zebra.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+
+    </div>
+    <div id="win" class="modal">
+        <div class="modal-win">
+            <img class="modal-win-img">
+            <button class="nextlvl-main-button" onclick="self.close()">יציאה</button>
+            <div class="divider"></div>
+            <button class="nextlvl-main-button" onclick="window.location.href='/lvl1.html'">שחק שוב</button>
+        </div>
+    </div>
+    <div id="lose" class="modal">
+        <div class="modal-lose">
+            <img class="modal-lose-img">
+            <button class="nextlvl-main-button" onclick="window.location.href='/index.html'">תפריט</button>
+            <div class="divider"></div>
+            <button class="nextlvl-main-button" onclick="window.location.href='/lvl5.html'">נסה שנית</button>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animals Memory Game</title>
+</head>
+
+<body class="lvl">
+    <div class="title">
+        <h1>משחק הזיכרון-חיות</h1>
+
+        <h2>שלב 2</h2>
+        <br>
+
+        <br />
+        <span id="guess">5</span>
+    </div>
+
+    <div id="container" class="game">
+        <div class="card lvl-2" data-id="01">
+            <img class="front" src="./images/cat.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="01">
+            <img class="front" src="./images/cat.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="02">
+            <img class="front" src="./images/dog.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="02">
+            <img class="front" src="./images/dog.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="03">
+            <img class="front" src="./images/giraffe.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="03">
+            <img class="front" src="./images/giraffe.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="04">
+            <img class="front" src="./images/turtle.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+        <div class="card lvl-2" data-id="04">
+            <img class="front" src="./images/turtle.jpg" alt="" />
+            <img class="back" src="./images/rock.jpg" alt="" />
+        </div>
+
+    </div>
+
+    <div id="win" class="modal">
+        <div class="modal-win">
+            <img class="modal-win-img">
+            <button class="nextlvl-main-button" onclick="window.location.href='/index.html'">תפריט</button>
+            <div class="divider"></div>
+            <button class="nextlvl-main-button" onclick="window.location.href='/lvl3.html'">שלב הבא</button>
+        </div>
+    </div>
+    <div id="lose" class="modal">
+        <div class="modal-lose">
+            <img class="modal-lose-img">
+            <button class="nextlvl-main-button" onclick="window.location.href='/index.html'">תפריט</button>
+
+            <div class="divider"></div>
+            <button class="nextlvl-main-button" onclick="window.location.href='/lvl2.html'">נסה שנית</button>
+        </div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
